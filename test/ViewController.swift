@@ -194,7 +194,7 @@ class ViewController: UIViewController,UITextFieldDelegate,UIPickerViewDelegate,
         lable.textColor = .white
         lable.textAlignment = .center
         lable.font = UIFont(name: "Menlo-Regular", size: 17)
-        lable.text = firstHit[row]
+        lable.text = getArray[row]
         return lable
     }
     
